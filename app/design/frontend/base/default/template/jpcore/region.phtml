@@ -1,0 +1,11 @@
+<script type="text/javascript">
+<?php if(Mage::getModel('core/locale')->getLocaleCode() == 'ja_JP'):?>
+if(typeof(RegionUpdater)!="undefined"){
+    RegionUpdater.prototype=Object.extend(RegionUpdater.prototype,{
+        sortSelect : function () {
+            return;
+        }
+    });
+}
+<?php endif;?>
+</script>

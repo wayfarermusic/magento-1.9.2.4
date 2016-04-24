@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+            <action method="setTemplate"><template>jpcore/head.phtml</template></action>
+            <block type="jpcore/js" name="jpcore.js" before="js_cookies" template="jpcore/js.phtml"></block>
+            <action method="addItem"><type>skin_js</type><name>rack/price.js</name></action>
+            <action method="addItem"><type>skin_css</type><name>rack/jpcore.css</name></action>
+        </reference>
+    </default>
+</layout>

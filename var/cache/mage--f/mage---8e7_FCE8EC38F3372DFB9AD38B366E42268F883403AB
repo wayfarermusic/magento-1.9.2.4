@@ -1,0 +1,299 @@
+
+<div class="nav-bar">
+<!-- menu start -->
+<ul id="nav">
+<li  class="  level0"> <a href="http://magento-1924.com:81/index.php/admin/dashboard/index/key/$dashboard/index$/"   class=""><span>ダッシュボード</span></a>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level0"> <a href="#"  onclick="return false" class=""><span>セールス</span></a>
+<ul >
+<li  class="  level1"> <a href="http://magento-1924.com:81/index.php/admin/sales_order/index/key/$sales_order/index$/"   class=""><span>注文</span></a>
+</li>
+<li  class="  level1"> <a href="http://magento-1924.com:81/index.php/admin/sales_invoice/index/key/$sales_invoice/index$/"   class=""><span>請求書</span></a>
+</li>
+<li  class="  level1"> <a href="http://magento-1924.com:81/index.php/admin/sales_shipment/index/key/$sales_shipment/index$/"   class=""><span>配送</span></a>
+</li>
+<li  class="  level1"> <a href="http://magento-1924.com:81/index.php/admin/sales_creditmemo/index/key/$sales_creditmemo/index$/"   class=""><span>クレジットメモ</span></a>
+</li>
+<li  class="  level1"> <a href="http://magento-1924.com:81/index.php/admin/sales_transactions/index/key/$sales_transactions/index$/"   class=""><span>トランザクション</span></a>
+</li>
+<li  class="  level1"> <a href="http://magento-1924.com:81/index.php/admin/sales_recurring_profile/index/key/$sales_recurring_profile/index$/"   class=""><span>継続課金 (ベータ版)</span></a>
+</li>
+<li  class="  level1"> <a href="http://magento-1924.com:81/index.php/admin/sales_billing_agreement/index/key/$sales_billing_agreement/index$/"   class=""><span>支払契約</span></a>
+</li>
+<li  class="  level1"> <a href="http://magento-1924.com:81/index.php/admin/checkout_agreement/index/key/$checkout_agreement/index$/"   class=""><span>契約条件</span></a>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent last level1"> <a href="#"  onclick="return false" class=""><span>税</span></a>
+<ul >
+<li  class="  level2"> <a href="http://magento-1924.com:81/index.php/admin/tax_rule/index/key/$tax_rule/index$/"   class=""><span>課税方法管理</span></a>
+</li>
+<li  class="  level2"> <a href="http://magento-1924.com:81/index.php/admin/tax_rate/index/key/$tax_rate/index$/"   class=""><span>税率と地域の管理</span></a>
+</li>
+<li  class="  level2"> <a href="http://magento-1924.com:81/index.php/admin/tax_rate/importExport/key/$tax_rate/importExport$/"   class=""><span>税率のインポート / エクスポート</span></a>
+</li>
+<li  class="  level2"> <a href="http://magento-1924.com:81/index.php/admin/tax_class_customer/index/key/$tax_class_customer/index$/"   class=""><span>顧客課税区分</span></a>
+</li>
+<li  class="  last level2"> <a href="http://magento-1924.com:81/index.php/admin/tax_class_product/index/key/$tax_class_product/index$/"   class=""><span>商品税区分</span></a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level0"> <a href="#"  onclick="return false" class=""><span>カタログ</span></a>
+<ul >
+<li  class="  level1"> <a href="http://magento-1924.com:81/index.php/admin/catalog_product/index/key/$catalog_product/index$/"   class=""><span>商品管理</span></a>
+</li>
+<li  class="  level1"> <a href="http://magento-1924.com:81/index.php/admin/catalog_category/index/key/$catalog_category/index$/"   class=""><span>カテゴリ管理</span></a>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1"> <a href="#"  onclick="return false" class=""><span>属性</span></a>
+<ul >
+<li  class="  level2"> <a href="http://magento-1924.com:81/index.php/admin/catalog_product_attribute/index/key/$catalog_product_attribute/index$/"   class=""><span>属性管理</span></a>
+</li>
+<li  class="  last level2"> <a href="http://magento-1924.com:81/index.php/admin/catalog_product_set/index/key/$catalog_product_set/index$/"   class=""><span>属性セット管理</span></a>
+</li>
+</ul>
+</li>
+<li  class="  level1"> <a href="http://magento-1924.com:81/index.php/admin/urlrewrite/index/key/$urlrewrite/index$/"   class=""><span>URL書換管理</span></a>
+</li>
+<li  class="  level1"> <a href="http://magento-1924.com:81/index.php/admin/catalog_search/index/key/$catalog_search/index$/"   class=""><span>検索ワード</span></a>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1"> <a href="#"  onclick="return false" class=""><span>レビューと評価</span></a>
+<ul >
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level2"> <a href="#"  onclick="return false" class=""><span>顧客レビュー</span></a>
+<ul >
+<li  class="  level3"> <a href="http://magento-1924.com:81/index.php/admin/catalog_product_review/pending/key/$catalog_product_review/pending$/"   class=""><span>承認待ちのレビュー</span></a>
+</li>
+<li  class="  last level3"> <a href="http://magento-1924.com:81/index.php/admin/catalog_product_review/index/key/$catalog_product_review/index$/"   class=""><span>全てのレビュー</span></a>
+</li>
+</ul>
+</li>
+<li  class="  last level2"> <a href="http://magento-1924.com:81/index.php/admin/rating/index/key/$rating/index$/"   class=""><span>評価管理</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1"> <a href="#"  onclick="return false" class=""><span>タグ</span></a>
+<ul >
+<li  class="  level2"> <a href="http://magento-1924.com:81/index.php/admin/tag/index/key/$tag/index$/"   class=""><span>全てのタグ</span></a>
+</li>
+<li  class="  last level2"> <a href="http://magento-1924.com:81/index.php/admin/tag/pending/key/$tag/pending$/"   class=""><span>承認待ちタグ</span></a>
+</li>
+</ul>
+</li>
+<li  class="  last level1"> <a href="http://magento-1924.com:81/index.php/admin/sitemap/index/key/$sitemap/index$/"   class=""><span>Googleサイトマップ</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level0"> <a href="#"  onclick="return false" class=""><span>顧客</span></a>
+<ul >
+<li  class="  level1"> <a href="http://magento-1924.com:81/index.php/admin/customer/index/key/$customer/index$/"   class=""><span>顧客管理</span></a>
+</li>
+<li  class="  level1"> <a href="http://magento-1924.com:81/index.php/admin/customer_group/index/key/$customer_group/index$/"   class=""><span>顧客グループ</span></a>
+</li>
+<li  class="  last level1"> <a href="http://magento-1924.com:81/index.php/admin/customer_online/index/key/$customer_online/index$/"   class=""><span>接続中の顧客</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level0"> <a href="#"  onclick="return false" class=""><span>プロモーション</span></a>
+<ul >
+<li  class="  level1"> <a href="http://magento-1924.com:81/index.php/admin/promo_catalog/index/key/$promo_catalog/index$/"   class=""><span>カタログ価格ルール</span></a>
+</li>
+<li  class="  last level1"> <a href="http://magento-1924.com:81/index.php/admin/promo_quote/index/key/$promo_quote/index$/"   class=""><span>クーポン</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level0"> <a href="#"  onclick="return false" class=""><span>ニュースレター</span></a>
+<ul >
+<li  class="  level1"> <a href="http://magento-1924.com:81/index.php/admin/newsletter_template/index/key/$newsletter_template/index$/"   class=""><span>ニュースレターテンプレート</span></a>
+</li>
+<li  class="  level1"> <a href="http://magento-1924.com:81/index.php/admin/newsletter_queue/index/key/$newsletter_queue/index$/"   class=""><span>ニュースレターキュー</span></a>
+</li>
+<li  class="  level1"> <a href="http://magento-1924.com:81/index.php/admin/newsletter_subscriber/index/key/$newsletter_subscriber/index$/"   class=""><span>ニュースレター購読者</span></a>
+</li>
+<li  class="  last level1"> <a href="http://magento-1924.com:81/index.php/admin/newsletter_problem/index/key/$newsletter_problem/index$/"   class=""><span>ニュースレター問題報告</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level0"> <a href="#"  onclick="return false" class=""><span>CMS</span></a>
+<ul >
+<li  class="  level1"> <a href="http://magento-1924.com:81/index.php/admin/cms_page/index/key/$cms_page/index$/"   class=""><span>ページ</span></a>
+</li>
+<li  class="  level1"> <a href="http://magento-1924.com:81/index.php/admin/cms_block/index/key/$cms_block/index$/"   class=""><span>静的ブロック</span></a>
+</li>
+<li  class="  level1"> <a href="http://magento-1924.com:81/index.php/admin/widget_instance/index/key/$widget_instance/index$/"   class=""><span>ウィジェット</span></a>
+</li>
+<li  class="  last level1"> <a href="http://magento-1924.com:81/index.php/admin/poll/index/key/$poll/index$/"   class=""><span>投票</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level0"> <a href="#"  onclick="return false" class=""><span>レポート</span></a>
+<ul >
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1"> <a href="#"  onclick="return false" class=""><span>セールス</span></a>
+<ul >
+<li  class="  level2"> <a href="http://magento-1924.com:81/index.php/admin/report_sales/sales/key/$report_sales/sales$/"   class=""><span>注文</span></a>
+</li>
+<li  class="  level2"> <a href="http://magento-1924.com:81/index.php/admin/report_sales/tax/key/$report_sales/tax$/"   class=""><span>税</span></a>
+</li>
+<li  class="  level2"> <a href="http://magento-1924.com:81/index.php/admin/report_sales/invoiced/key/$report_sales/invoiced$/"   class=""><span>請求済</span></a>
+</li>
+<li  class="  level2"> <a href="http://magento-1924.com:81/index.php/admin/report_sales/shipping/key/$report_sales/shipping$/"   class=""><span>配送料</span></a>
+</li>
+<li  class="  level2"> <a href="http://magento-1924.com:81/index.php/admin/report_sales/refunded/key/$report_sales/refunded$/"   class=""><span>返金</span></a>
+</li>
+<li  class="  level2"> <a href="http://magento-1924.com:81/index.php/admin/report_sales/coupons/key/$report_sales/coupons$/"   class=""><span>クーポン</span></a>
+</li>
+<li  class="  last level2"> <a href="http://magento-1924.com:81/index.php/admin/paypal_reports/index/key/$paypal_reports/index$/"   class=""><span>PayPal決済レポート</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1"> <a href="#"  onclick="return false" class=""><span>ショッピングカート</span></a>
+<ul >
+<li  class="  level2"> <a href="http://magento-1924.com:81/index.php/admin/report_shopcart/product/key/$report_shopcart/product$/"   class=""><span>カート内の商品</span></a>
+</li>
+<li  class="  last level2"> <a href="http://magento-1924.com:81/index.php/admin/report_shopcart/abandoned/key/$report_shopcart/abandoned$/"   class=""><span>無効になったショッピングカート</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1"> <a href="#"  onclick="return false" class=""><span>商品</span></a>
+<ul >
+<li  class="  level2"> <a href="http://magento-1924.com:81/index.php/admin/report_sales/bestsellers/key/$report_sales/bestsellers$/"   class=""><span>ベストセラー</span></a>
+</li>
+<li  class="  level2"> <a href="http://magento-1924.com:81/index.php/admin/report_product/sold/key/$report_product/sold$/"   class=""><span>最近注文された商品</span></a>
+</li>
+<li  class="  level2"> <a href="http://magento-1924.com:81/index.php/admin/report_product/viewed/key/$report_product/viewed$/"   class=""><span>閲覧最多商品</span></a>
+</li>
+<li  class="  level2"> <a href="http://magento-1924.com:81/index.php/admin/report_product/lowstock/key/$report_product/lowstock$/"   class=""><span>在庫薄</span></a>
+</li>
+<li  class="  last level2"> <a href="http://magento-1924.com:81/index.php/admin/report_product/downloads/key/$report_product/downloads$/"   class=""><span>ダウンロード</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1"> <a href="#"  onclick="return false" class=""><span>顧客</span></a>
+<ul >
+<li  class="  level2"> <a href="http://magento-1924.com:81/index.php/admin/report_customer/accounts/key/$report_customer/accounts$/"   class=""><span>新しいアカウント</span></a>
+</li>
+<li  class="  level2"> <a href="http://magento-1924.com:81/index.php/admin/report_customer/totals/key/$report_customer/totals$/"   class=""><span>注文額合計順に顧客を並べ替え</span></a>
+</li>
+<li  class="  last level2"> <a href="http://magento-1924.com:81/index.php/admin/report_customer/orders/key/$report_customer/orders$/"   class=""><span>顧客ごとの注文件数</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1"> <a href="#"  onclick="return false" class=""><span>タグ</span></a>
+<ul >
+<li  class="  level2"> <a href="http://magento-1924.com:81/index.php/admin/report_tag/customer/key/$report_tag/customer$/"   class=""><span>顧客</span></a>
+</li>
+<li  class="  level2"> <a href="http://magento-1924.com:81/index.php/admin/report_tag/product/key/$report_tag/product$/"   class=""><span>商品</span></a>
+</li>
+<li  class="  last level2"> <a href="http://magento-1924.com:81/index.php/admin/report_tag/popular/key/$report_tag/popular$/"   class=""><span>人気</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1"> <a href="#"  onclick="return false" class=""><span>レビュー</span></a>
+<ul >
+<li  class="  level2"> <a href="http://magento-1924.com:81/index.php/admin/report_review/customer/key/$report_review/customer$/"   class=""><span>顧客のレビュー</span></a>
+</li>
+<li  class="  last level2"> <a href="http://magento-1924.com:81/index.php/admin/report_review/product/key/$report_review/product$/"   class=""><span>商品レビュー</span></a>
+</li>
+</ul>
+</li>
+<li  class="  level1"> <a href="http://magento-1924.com:81/index.php/admin/report/search/key/$report/search$/"   class=""><span>検索ワード</span></a>
+</li>
+<li  class="  last level1"> <a href="http://magento-1924.com:81/index.php/admin/report_statistics/index/key/$report_statistics/index$/"   class=""><span>統計を更新</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class=" active  parent level0"> <a href="#"  onclick="return false" class="active"><span>システム</span></a>
+<ul >
+<li  class="  level1"> <a href="http://magento-1924.com:81/index.php/admin/system_account/index/key/$system_account/index$/"   class=""><span>マイアカウント</span></a>
+</li>
+<li  class="  level1"> <a href="http://magento-1924.com:81/index.php/admin/notification/index/key/$notification/index$/"   class=""><span>お知らせ</span></a>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1"> <a href="#"  onclick="return false" class=""><span>ツール</span></a>
+<ul >
+<li  class="  level2"> <a href="http://magento-1924.com:81/index.php/admin/system_backup/index/key/$system_backup/index$/"   class=""><span>バックアップ</span></a>
+</li>
+<li  class="  last level2"> <a href="http://magento-1924.com:81/index.php/admin/compiler_process/index/key/$compiler_process/index$/"   class=""><span>コンパイル処理</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1"> <a href="#"  onclick="return false" class=""><span>ウェブサービス</span></a>
+<ul >
+<li  class="  level2"> <a href="http://magento-1924.com:81/index.php/admin/api_user/index/key/$api_user/index$/"   class=""><span>SOAP/XML-RPC - ユーザー</span></a>
+</li>
+<li  class="  level2"> <a href="http://magento-1924.com:81/index.php/admin/api_role/index/key/$api_role/index$/"   class=""><span>SOAP/XML-RPC - 権限</span></a>
+</li>
+<li  class="  level2"> <a href="http://magento-1924.com:81/index.php/admin/api2_role/index/key/$api2_role/index$/"   class=""><span>REST - Roles</span></a>
+</li>
+<li  class="  level2"> <a href="http://magento-1924.com:81/index.php/admin/api2_attribute/index/key/$api2_attribute/index$/"   class=""><span>REST - Attributes</span></a>
+</li>
+<li  class="  level2"> <a href="http://magento-1924.com:81/index.php/admin/oauth_consumer/index/key/$oauth_consumer/index$/"   class=""><span>REST - OAuthコンシューマ</span></a>
+</li>
+<li  class="  level2"> <a href="http://magento-1924.com:81/index.php/admin/oauth_authorizedTokens/index/key/$oauth_authorizedTokens/index$/"   class=""><span>REST - OAuth認証トークン</span></a>
+</li>
+<li  class="  last level2"> <a href="http://magento-1924.com:81/index.php/admin/oauth_admin_token/index/key/$oauth_admin_token/index$/"   class=""><span>REST - マイアプリ</span></a>
+</li>
+</ul>
+</li>
+<li  class="  level1"> <a href="http://magento-1924.com:81/index.php/admin/system_design/index/key/$system_design/index$/"   class=""><span>デザイン</span></a>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1"> <a href="#"  onclick="return false" class=""><span>インポート/エクスポート</span></a>
+<ul >
+<li  class="  level2"> <a href="http://magento-1924.com:81/index.php/admin/import/index/key/$import/index$/"   class=""><span>インポート</span></a>
+</li>
+<li  class="  level2"> <a href="http://magento-1924.com:81/index.php/admin/export/index/key/$export/index$/"   class=""><span>エクスポート</span></a>
+</li>
+<li  class="  level2"> <a href="http://magento-1924.com:81/index.php/admin/system_convert_gui/index/key/$system_convert_gui/index$/"   class=""><span>データフロー – プロファイル</span></a>
+</li>
+<li  class="  last level2"> <a href="http://magento-1924.com:81/index.php/admin/system_convert_profile/index/key/$system_convert_profile/index$/"   class=""><span>データフロー – 拡張プロファイル</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1"> <a href="http://magento-1924.com:81/index.php/admin/system_currency/index/key/$system_currency/index$/"   class=""><span>通貨管理</span></a>
+<ul >
+<li  class="  level2"> <a href="http://magento-1924.com:81/index.php/admin/system_currency/index/key/$system_currency/index$/"   class=""><span>レート</span></a>
+</li>
+<li  class="  last level2"> <a href="http://magento-1924.com:81/index.php/admin/system_currencysymbol/index/key/$system_currencysymbol/index$/"   class=""><span>記号</span></a>
+</li>
+</ul>
+</li>
+<li  class="  level1"> <a href="http://magento-1924.com:81/index.php/admin/system_email_template/index/key/$system_email_template/index$/"   class=""><span>取り引きメール</span></a>
+</li>
+<li  class="  level1"> <a href="http://magento-1924.com:81/index.php/admin/system_variable/index/key/$system_variable/index$/"   class=""><span>カスタム変数</span></a>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1"> <a href="#"  onclick="return false" class=""><span>権限</span></a>
+<ul >
+<li  class="  level2"> <a href="http://magento-1924.com:81/index.php/admin/permissions_user/index/key/$permissions_user/index$/"   class=""><span>ユーザー</span></a>
+</li>
+<li  class="  level2"> <a href="http://magento-1924.com:81/index.php/admin/permissions_role/index/key/$permissions_role/index$/"   class=""><span>権限</span></a>
+</li>
+<li  class="  level2"> <a href="http://magento-1924.com:81/index.php/admin/permissions_variable/index/key/$permissions_variable/index$/"   class=""><span>Variables</span></a>
+</li>
+<li  class="  last level2"> <a href="http://magento-1924.com:81/index.php/admin/permissions_block/index/key/$permissions_block/index$/"   class=""><span>Blocks</span></a>
+</li>
+</ul>
+</li>
+<li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  parent level1"> <a href="#"  onclick="return false" class=""><span>Magentoコネクト</span></a>
+<ul >
+<li  class="  level2"> <a href="http://magento-1924.com:81/index.php/admin/extension_local/index/key/$extension_local/index$/"   class=""><span>Magentoコネクト管理</span></a>
+</li>
+<li  class="  last level2"> <a href="http://magento-1924.com:81/index.php/admin/extension_custom/index/key/$extension_custom/index$/"   class=""><span>エクステンションパッケージ</span></a>
+</li>
+</ul>
+</li>
+<li  class="  level1"> <a href="http://magento-1924.com:81/index.php/admin/cache/index/key/$cache/index$/"   class=""><span>キャッシュ管理</span></a>
+</li>
+<li  class="  level1"> <a href="http://magento-1924.com:81/index.php/admin/process/list/key/$process/list$/"   class=""><span>インデックス管理</span></a>
+</li>
+<li  class="  level1"> <a href="http://magento-1924.com:81/index.php/admin/system_store/index/key/$system_store/index$/"   class=""><span>店舗管理</span></a>
+</li>
+<li  class="  level1"> <a href="http://magento-1924.com:81/index.php/admin/sales_order_status/index/key/$sales_order_status/index$/"   class=""><span>注文ステータス</span></a>
+</li>
+<li  class="  last level1"> <a href="http://magento-1924.com:81/index.php/admin/system_config/index/key/$system_config/index$/"   class=""><span>設定</span></a>
+</li>
+</ul>
+</li>
+</ul>
+<!-- menu end -->
+
+    <a id="page-help-link" href="http://www.magentocommerce.com/gethelp/ja_JP/Mage_Index_Adminhtml/process/list/">このページのヘルプを見る</a>
+    <script type="text/javascript">$('page-help-link').target = 'magento_page_help'</script>
+
+</div>

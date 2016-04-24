@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <Rack_Jp_Core>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Rack_Jp_Core>
+    </modules>
+</config>

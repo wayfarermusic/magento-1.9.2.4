@@ -1,0 +1,101 @@
+<?php
+/**
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to info@principle-works.jp so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade to newer
+ * versions in the future. If you wish to customize it for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category   Localize
+ * @package    Rack_Jp_Core
+ * @copyright  Copyright (c) 2015 Veriteworks Inc. (http://principle-works.jp/)
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+?>
+<label for="<?php echo $this->getFieldId('month')?>"<?php if ($this->isRequired()) echo ' class="required"' ?>><?php if ($this->isRequired()) echo '<em>*</em>' ?><?php echo $this->__('Date of Birth') ?></label>
+<div class="input-box customer-dob">
+
+    <?php
+    // year
+    $dob_year = '<div class="dob-year" style="width:80px;" >';
+    $dob_year .= '<select style="width:80px;" id="'.$this->getFieldId('year').'" name="'.$this->getFieldName('year').'" title="'.$this->__('Year').'" class="validate-custom"> ';
+
+
+    $year = $this->getYear();
+    if (!$year){
+        $year = Mage::getStoreConfig('jpcore/additional/defaultyear');
+    }
+
+    $from_year = Mage::getStoreConfig('jpcore/additional/startyear');;
+    $to_year = date("Y");
+    for ($y = $from_year; $y <= $to_year; $y++){
+        $dob_year .= '<option value="'.$y.'" ';
+        if ($y == $year) {
+            $dob_year .= ' selected="selected"';
+        }
+        $dob_year .=  '>'. $y.'</option>';
+    }
+    $dob_year .= '</select></div>';
+    $this->setDateInput('y', $dob_year);
+
+
+    //month
+    $dob_month = '<div class="dob-month" style="width:60px;" >';
+    $dob_month .= '<select style="width:60px;" id="'.$this->getFieldId('month').'" name="'.$this->getFieldName('month').'" title="'.$this->__('Month').'" class="validate-custom">';
+
+
+    $month = $this->getMonth();
+
+    for ($m = 1; $m <= 12; $m++){
+        $dob_month .= '<option value="'.sprintf('%02d', $m).'" ';
+        if ($m == $month) {
+            $dob_month .= ' selected="selected"';
+        }
+        $dob_month .=  '>'. $m.'</option>';
+    }
+    $dob_month .= '</select></div>';
+    $this->setDateInput('m', $dob_month);
+
+
+    //day
+    $dob_day = '<div class="dob-day" style="width:60px;" >';
+    $dob_day .= '<select style="width:60px;" id="'.$this->getFieldName('day').'" name="'.$this->getFieldName('day').'" title="'.$this->__('Day').'" class="validate-custom">';
+
+
+    $day = $this->getDay();
+
+    for ($d = 1; $d <= 31; $d++){
+        $dob_day .= '<option value="'.sprintf('%02d', $d).'" ';
+        if ($d == $day) {
+            $dob_day .= ' selected="selected"';
+        }
+        $dob_day .=  '>'. $d.'</option>';
+    }
+    $dob_day .= '</select></div>';
+    $this->setDateInput('d', $dob_day);
+
+
+    ?>
+    <?php echo $this->getSortedDateInputs() ?>
+    <div class="dob-full" style="display:none;">
+        <input type="hidden" id="<?php echo $this->getFieldId('dob')?>" name="<?php echo $this->getFieldName('dob')?>" />
+    </div>
+
+    <div class="validation-advice" style="display:none;"></div>
+</div>
+<script type="text/javascript">
+    //<![CDATA[
+    var customer_dob = new Varien.DOB('.customer-dob', <?php echo $this->isRequired() ? 'true' : 'false' ?>, '<?php echo $this->getDateFormat() ?>');
+    //]]>
+</script>

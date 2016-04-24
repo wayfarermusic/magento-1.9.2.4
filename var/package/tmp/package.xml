@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<package>
+    <name>rack_jp_core</name>
+    <version>1.1.7</version>
+    <stability>stable</stability>
+    <license>OSL V3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension attempt to suit Magento for Japanese eCommerce regulations.</summary>
+    <description>This extension attempt to suit Magento for Japanese eCommerce regulations.&#xD;
+&#xD;
+Most of Japanese eCommerce website requests their customers "Furigana." and JPY does not need a decimal point. and one more displaying customer and admin name is different in Japanese  (Last name - First name is correct)&#xD;
+&#xD;
+This extension will fix these issues.</description>
+    <notes>1.1.7 improve admin page. available for php5.6&#xD;
+1.1.6 fix shipping fee calculation&#xD;
+1.1.5 fix for SUPEE-6788&#xD;
+1.1.4 fix name widget template. fix adminhtml region order for Japanese&#xD;
+1.1.3 fix bug about region order on 1.9.2.x&#xD;
+1.1.2 fix for 1.9.2.0&#xD;
+1.1.1 modify price.js&#xD;
+1.1.0 add remove decimal currency feature. fix coupon bug.&#xD;
+1.0.4 fix date format. fix 1.7 bug.&#xD;
+1.0.3 fix incl tax calculation.&#xD;
+1.0.2 fix bug on admin user edit form.&#xD;
+1.0.1 fix bug for 1.8.1&#xD;
+1.0.0 fix tax calculation logic and bugs.&#xD;
+0.9.11 fix customer address template&#xD;
+0.9.10 remove unused files&#xD;
+0.9.9 fix checkout billing form bug&#xD;
+0.9.8 add address template&#xD;
+0.9.7 fix minor bug. test for 1.9&#xD;
+0.9.6 add unincluded file&#xD;
+0.9.5 fix grid renderer. fix multi currency bug.&#xD;
+0.9.4 update&#xD;
+0.9.3 add admin panel address form modification sql.&#xD;
+0.9.2 fix price calculation javascript.&#xD;
+          fix locale csv.&#xD;
+0.9.1 fix customer data display bug on admin panel.&#xD;
+0.9.0 fix paypal express review form.&#xD;
+          fix admin account edit form.&#xD;
+          add gender choose option.&#xD;
+0.8.0 fix guest order data editing issues.&#xD;
+0.7.0 tested on 1.8.&#xD;
+          add tax round mode and original calculation process for JPY.&#xD;
+0.6.1 fix template&#xD;
+0.6.0 add currency symbol position &amp; expression.&#xD;
+          fix admin panel region locale.&#xD;
+0.5.1 fix currency issue&#xD;
+0.5.0 add show address fields flag on customer registration form.&#xD;
+0.4.4 improve templates.&#xD;
+0.4.3 Fix region order displaying on Japanese.&#xD;
+0.4.2 Fix install script bug.&#xD;
+0.4.1 Update for Jp_Validator 3.0&#xD;
+0.4.0 Stable for 1.7&#xD;
+0.3.1 Fix Dob select box bug.&#xD;
+0.3.0 Change nameorder detection process.&#xD;
+          add denomination js&#xD;
+0.2.3 Fix eav_attribute configurations.&#xD;
+0.2.2 Fix wrong table name specified in installer script.&#xD;
+0.2.1 fix wrong id on postcode field.&#xD;
+0.2.0 add dob select box functionality.&#xD;
+          change template path.&#xD;
+0.1.6 fix billing&amp;amp;shipping templates.&#xD;
+0.1.5 fix wrong definition in config.xml&#xD;
+0.1.4 fix bugs and add some functions.&#xD;
+0.1.3 initial release</notes>
+    <authors><author><name>Hirokazu Nishi</name><user>hirokazu_n</user><email>nishi@principle-works.jp</email></author></authors>
+    <date>2016-02-29</date>
+    <time>01:31:24</time>
+    <contents><target name="magecommunity"><dir name="Rack"><dir name="Jp"><dir name="Core"><dir name="Block"><dir name="Adminhtml"><dir name="Catalog"><dir name="Product"><dir name="Edit"><dir name="Tab"><dir name="Tag"><file name="Customer.php" hash="064837fde61e85c5133316f31811b703"/></dir></dir></dir><dir name="Helper"><dir name="Form"><file name="Price.php" hash="477c5399d61e8b49081cfa8ca2751c56"/></dir></dir></dir></dir><dir name="Customer"><dir name="Edit"><dir name="Tab"><file name="Addresses.php" hash="3f7e0259df49dcd9e70d9c6f9233a2b8"/></dir></dir><dir name="Online"><file name="Grid.php" hash="18df61360f3db068317c104e23ff1d21"/></dir></dir><dir name="Newsletter"><dir name="Subscriber"><file name="Grid.php" hash="9a64bb7a840a0b678e2f5384c5f2d12a"/></dir></dir><dir name="Permissions"><dir name="Role"><dir name="Grid"><file name="User.php" hash="71f37bf3d2a9c7bfc98f38f74808a56a"/></dir></dir><dir name="User"><file name="Grid.php" hash="cddfb7df4aa11ddb2f9379013ed7c9ed"/></dir></dir><dir name="Report"><dir name="Grid"><dir name="Column"><dir name="Renderer"><file name="Currency.php" hash="229dac2881f5570507b18901d27f22da"/></dir></dir></dir><dir name="Tag"><dir name="Customer"><file name="Grid.php" hash="f49a21eb0926f5847d0e5643400d6260"/></dir></dir></dir><dir name="Review"><dir name="Edit"><file name="Form.php" hash="251b41fc39a550bcf55704e5b5b488d7"/></dir><file name="Main.php" hash="612c7307c72a85da8853b91f29414a12"/></dir><dir name="Sales"><dir name="Order"><dir name="View"><file name="Info.php" hash="821cba98ab435da4e44e01ad8a257248"/><dir name="Items"><dir name="Renderer"><file name="Default.php" hash="42596c39ea2af7f4631e032c3c4ed633"/></dir></dir></dir></dir></dir><dir name="System"><dir name="Account"><dir name="Edit"><file name="Form.php" hash="a014a3baa6dc2c963d1113d4cb9cb448"/></dir></dir></dir><dir name="Tag"><dir name="Customer"><file name="Grid.php" hash="65cf65051e0d517c320240079aeb2a62"/></dir></dir><dir name="Widget"><dir name="Grid"><dir name="Column"><dir name="Renderer"><file name="Currency.php" hash="7e94da089dcaecb84befccd599deafe1"/><file name="Price.php" hash="ecc41d2367ad7b00353c8d3ce725a02b"/></dir></dir></dir></dir></dir><dir name="Checkout"><dir name="Onepage"><file name="Billing.php" hash="56405dd5c1beac97215b38a3e6248d4c"/></dir></dir><dir name="Customer"><dir name="Address"><file name="Edit.php" hash="f021b4609e9c810d51947ff337682b7f"/></dir><dir name="Widget"><file name="Dob.php" hash="22437329ed1786293beee15ac41cdbff"/><file name="Gender.php" hash="8c4203356171e10c104031d31830de23"/><file name="Name.php" hash="f64a4168be8c098caf942d1bbfa20ca2"/></dir></dir><file name="Js.php" hash="e57bdff85534f453565218b8ea90ff7e"/></dir><dir name="Helper"><file name="Data.php" hash="667e03739b3c825a4f22102ee49a04e3"/></dir><dir name="Model"><file name="Currency.php" hash="082816fb9a1ea6782338a7997a511b7f"/><file name="Customer.php" hash="15ae44aa804539d3908c4aaca970f416"/><file name="Directory.php" hash="2a79162a2fea4c31303309f4d8264ef4"/><dir name="Entity"><dir name="Customer"><file name="Collection.php" hash="34c0e5d4b3dc84363aa065a387288072"/></dir><file name="Setup.php" hash="1c4a0e4aa757da438974373cdef3761e"/></dir><file name="Install.php" hash="7cbf184846abba617fdbc9b0436f7dde"/><file name="Locale.php" hash="0629d3b7040cd2a42bf1698ed8c603ab"/><dir name="Mysql4"><dir name="Customer"><file name="Collection.php" hash="35c647a0c70b102b752f3194906a3c2d"/></dir><dir name="Reports"><dir name="Customer"><file name="Collection.php" hash="bce9d754bd054a132f6d9398f0922924"/><dir name="Orders"><file name="Collection.php" hash="b6881594629874fcadb67d142bcd67e7"/></dir><dir name="Totals"><file name="Collection.php" hash="08f2bd4c8067d6e82d3cb4e2de24cd74"/></dir></dir><dir name="Order"><file name="Collection.php" hash="ebff8a2b348659a5472bc44231d0a504"/></dir><dir name="Review"><dir name="Customer"><file name="Collection.php" hash="0a53e4f2175ac76a31f2bc247ec87145"/></dir></dir></dir><dir name="Sales"><dir name="Order"><file name="Creditmemo.php" hash="4133f77b7611463d82b86773d069aece"/><dir name="Grid"><file name="Collection.php" hash="cce2799f4e0f42a57c703ecd1668db77"/></dir><file name="Invoice.php" hash="76d74ff509da787ec8c6a0c30e5fbeae"/><file name="Shipment.php" hash="a089dca1c35a93df722ded782bc7fc8f"/></dir><file name="Order.php" hash="04364b7c34f1427a4a1b8c6f19a8afee"/></dir></dir><dir name="Newsletter"><file name="Subscriber.php" hash="8d07e5b0ad35582749bced3a134c724c"/></dir><file name="Observer.php" hash="4eb6267ef7672852672a55dfba2d4764"/><dir name="Resource"><dir name="Customer"><file name="Collection.php" hash="4b289b0c94b81dab65277fdb55189fd6"/></dir><dir name="Directory"><dir name="Region"><file name="Collection.php" hash="56c6b34322732d608f084f2cc1aa29b4"/></dir></dir><file name="Directory.php" hash="c025f42a66ad961da5625a8f4799ef62"/><dir name="Order"><file name="Creditmemo.php" hash="8f0e7019da8f2a7b03ac2e530195cdff"/><dir name="Grid"><file name="Collection.php" hash="e59896761451a08aa850ad29e41775c8"/></dir><file name="Invoice.php" hash="763358f3883ecb1ca33d9b09e0e47ae4"/><file name="Shipment.php" hash="a7267dd9687c68136d670a19a0633577"/></dir><file name="Order.php" hash="ff721e0e39a3141cb9f4e93371d08953"/><dir name="Reports"><dir name="Customer"><file name="Collection.php" hash="3b813c95522f0ae783d7c7ff55594232"/><dir name="Orders"><file name="Collection.php" hash="0d71c3f42b8a69531b7314392f7f29bb"/></dir><dir name="Totals"><file name="Collection.php" hash="3406e52adba8bc8aa45bf6b15af6e1c7"/></dir></dir><dir name="Order"><file name="Collection.php" hash="510f26dd932c78f30e3b15f951b54db8"/></dir><dir name="Review"><dir name="Customer"><file name="Collection.php" hash="e0e8b2f32fb80a8c0ec64e0c8f6b4374"/></dir></dir></dir></dir><dir name="Sales"><dir name="Order"><file name="Address.php" hash="5f79fa054e0b475400f8852605a05119"/><dir name="Creditmemo"><dir name="Total"><file name="Discount.php" hash="74b03b6061a30bfb51e2710ae9935f0c"/><file name="Shipping.php" hash="9a736c9a93ad9dcb72dce0cdc89b6dc8"/><file name="Subtotal.php" hash="5149d34633c36abc3475f494cc6b3fb6"/><file name="Tax.php" hash="06085ef51f4ec5ccd0b0821e593670d6"/></dir></dir><dir name="Invoice"><dir name="Total"><file name="Discount.php" hash="2aa8cfe1050a79e84eb9377e3dec4855"/><file name="Subtotal.php" hash="ec875def8456152779133d4a00dffd92"/></dir></dir></dir><file name="Order.php" hash="d03101820d74b9304cebcd7fe6584729"/><dir name="Quote"><dir name="Address"><file name="Item.php" hash="a33a069a3c8d0d7ef87e9ae29f325b5e"/><dir name="Total"><file name="Discount.php" hash="bf86cd58dfd00d552b0c2a345ce4ca74"/><file name="Shipping.php" hash="b39029ddf2ce56740360684eb6b4137b"/><file name="Subtotal.php" hash="5481593665c29b78dc1c0274d3277e23"/></dir></dir><file name="Address.php" hash="6a1ab6425805c34f0bb5b38d510e7d3c"/><file name="Item.php" hash="162bba8289f895c95d7c3d231c95513a"/></dir></dir><dir name="SalesRule"><file name="Validator.php" hash="fad8535447530d80e1e2972b1da146c8"/></dir><file name="Store.php" hash="e183a6b7a1db218c19a44e41961fe827"/><dir name="System"><file name="Config.php" hash="ce07892da155a41645c8bcf4120289a2"/><file name="Currency.php" hash="1d658b7bff668dcefcd8f59df362f9b2"/><file name="Gender.php" hash="592d5be90e9ae00e804dacfd6559e6fb"/><file name="Round.php" hash="00064c93701f61cba44e3e2d94822545"/></dir><dir name="Tax"><file name="Calculation.php" hash="926419e79fae274135dbbd8970cce85e"/><dir name="Quote"><file name="Shipping.php" hash="4368a032302ccf603a9728262eb10e83"/><file name="Shipping19.php" hash="48c397044e7b35da71c7a5f893243a1a"/><file name="Subtotal.php" hash="aa146d605e5ce14b6bb10159b0a743f9"/><file name="Tax.php" hash="cb2c94eb52525042e2ba4e30e6a2a91e"/><file name="Tax17.php" hash="ead3d5f2d1ab34ec0464870d5b25a7d1"/><file name="Tax18.php" hash="bff28e9a0e3bbe6863a6f8065099c2cf"/><file name="Tax181.php" hash="b61435227f6026b01077f642f772ee98"/></dir></dir></dir><dir name="Test"><dir name="Model"><file name="Customer.php" hash="737411b68875d481a2c599d095cd4105"/><file name="Store.php" hash="e660bbce9a427bbf2974269cebfcc071"/></dir></dir><dir name="etc"><file name="config.xml" hash="1906c7177325dc6887b6342d5c3504fd"/><file name="system.xml" hash="d152895d8e6cc8985952028ac48b825c"/></dir><dir name="sql"><dir name="jpcore_setup"><file name="install-0.1.0.php" hash="fa6c39256ed7612161cf947af4380d5a"/><file name="upgrade-0.1.0-0.1.1.php" hash="4c1a240441719521cc0767d39cabc3ae"/><file name="upgrade-0.1.1-0.1.2.php" hash="b2337f494345994fe68c36dd2e3ed672"/><file name="upgrade-0.2.2-0.2.3.php" hash="e116cd7dd80b9052ea55a87f0fc9a4c6"/><file name="upgrade-0.9.2-0.9.3.php" hash="ba39a828d4b84701224ea2e049e63f8d"/><file name="upgrade-0.9.7-0.9.8.php" hash="f9063617f75a191a6748056dcd9b6ce2"/></dir></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="jp_core.xml" hash="a51cdc39e5ab01dfd801ffd061be97b4"/></dir><dir name="template"><dir name="jpcore"><dir name="checkout"><dir name="onepage"><file name="billing.phtml" hash="3ce15973298406d7190e8fd94bbb2bdb"/><file name="shipping.phtml" hash="4a2262a35260fa4d2c4612323779c16c"/></dir></dir><dir name="customer"><dir name="address"><file name="edit.phtml" hash="55c7cd9102ec3aaf68b3f9a95e10191f"/></dir><dir name="form"><file name="register.phtml" hash="ee33275dab43c9c032ea1591e9136df4"/></dir><dir name="widget"><file name="dob.phtml" hash="801c6d920acfe2fde5fd973c27e5d6f8"/><file name="gender.phtml" hash="8896f67f851c22194996d2d2cba55b5f"/><file name="name_en.phtml" hash="dfe00f54a08f189f8b3f44e029a5061a"/><file name="name_jp.phtml" hash="3d007ce5bb37d5e9a1a8bec6ef7c4ad7"/></dir></dir><file name="js.phtml" hash="c58753aa40a6c33d48a3b9df193dbb9e"/><dir name="paypal"><dir name="express"><dir name="review"><file name="address.phtml" hash="d454455aee26b06a413441e5f95bfb15"/></dir></dir></dir><file name="region.phtml" hash="4226ce75dc1964b274e43265375acddf"/></dir></dir></dir></dir></dir><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="jp_core.xml" hash="c85d70f4625579fa7c784930613622fc"/></dir><dir name="template"><dir name="jpcore"><dir name="customer"><dir name="edit"><dir name="tab"><file name="addresses.phtml" hash="626bf96a3c00df590c5ecc39f110a49e"/></dir></dir></dir><file name="head.phtml" hash="355bcad74c32595c4c0517cf74064ecd"/><file name="js.phtml" hash="4fe3f2225b0491de3eb96809a80a6f09"/></dir></dir></dir></dir></dir></target><target name="magelocale"><dir name="ja_JP"><file name="Rack_Jp_Core.csv" hash="33dba9cf6e2d5f19e178b0fd141d2b7a"/></dir></target><target name="mageetc"><dir name="modules"><file name="Rack_Jp_Core.xml" hash="0aef8684d41eea506da0ca0204d506a7"/></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="rack"><file name="dob.js" hash="adffa0c7d337a6aaada9fb74e6a7e995"/><file name="price.js" hash="7bfc91668dfaf7030212a1809aaebc17"/></dir></dir></dir></dir><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="rack"><file name="jpcore.css" hash="e6bcdbdc1173762da4ac4ecd377a5248"/><file name="price.js" hash="9aee7cc43e81830229b20b47aeca62ad"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>5.6.99</max></php><extension><name>mbstring</name><min/><max/></extension></required></dependencies>
+</package>

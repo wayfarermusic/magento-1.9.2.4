@@ -1,0 +1,39 @@
+<?php
+/**
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to info@principle-works.jp so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade to newer
+ * versions in the future. If you wish to customize it for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category   Localize
+ * @package    Rack_Jp_Core
+ * @copyright  Copyright (c) 2015 Veriteworks Inc. (http://principle-works.jp/)
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+?>
+<label for="<?php echo $this->getFieldId('gender')?>"<?php if ($this->isRequired()) echo ' class="required"' ?>><?php if ($this->isRequired()) echo '<em>*</em>' ?><?php echo $this->__('Gender') ?></label>
+<div class="input-box">
+    <ul style=" padding-left: 20px; ">
+<?php $options = Mage::getResourceSingleton('customer/customer')->getAttribute('gender')->getSource()->getAllOptions();?>
+<?php $value = $this->getGender();?>
+<?php foreach ($options as $option):?>
+    <?php if($this->isRequired() && !$option['value']) : continue; endif;?>
+    <li class="control" style="float: left; margin-right: 20px;">
+        <div class="input-box" style="vertical-align: text-bottom;"><input type="radio" name="<?php echo $this->getFieldName('gender')?>" id="<?php echo $this->getFieldId('gender') . $option['value']?>" value="<?php echo $option['value'] ?>"<?php if ($option['value'] == $value) echo ' checked="checked"' ?>/></div>
+        <label for="<?php echo $this->getFieldId('gender') . $option['value']?>"><?php if($option['value']) :?><?php echo $this->__($option['label']) ?><?php else: echo $this->__('no selection')?><?php endif;?></label>
+    </li>
+<?php endforeach;?>
+    </ul>
+</div>

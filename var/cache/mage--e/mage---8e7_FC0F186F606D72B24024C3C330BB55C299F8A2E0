@@ -1,0 +1,54 @@
+<div class="footer-container">
+    <div class="footer">
+        <div class="block block-subscribe">
+    <div class="block-title">
+        <strong><span>ニュースレター</span></strong>
+    </div>
+    <form action="http://magento-1924.com:81/index.php/newsletter/subscriber/new/?___SID=U" method="post" id="newsletter-validate-detail">
+        <div class="block-content">
+            <div class="form-subscribe-header">
+                <label for="newsletter">ニュースレターをご購読ください:</label>
+            </div>
+            <div class="input-box">
+               <input type="email" autocapitalize="off" autocorrect="off" spellcheck="false" name="email" id="newsletter" title="ニュースレターを購読" class="input-text required-entry validate-email" />
+            </div>
+            <div class="actions">
+                <button type="submit" title="購読" class="button"><span><span>購読</span></span></button>
+            </div>
+        </div>
+    </form>
+    <script type="text/javascript">
+    //<![CDATA[
+        var newsletterSubscriberFormDetail = new VarienForm('newsletter-validate-detail');
+    //]]>
+    </script>
+</div>
+
+<div class="links">
+    <div class="block-title">
+        <strong><span>Company</span></strong>
+    </div>
+    <ul>
+        <li><a href="http://magento-1924.com:81/index.php/?___SID=Uabout-magento-demo-store/">About Us</a></li>
+        <li><a href="http://magento-1924.com:81/index.php/?___SID=Ucontacts/">Contact Us</a></li>
+        <li><a href="http://magento-1924.com:81/index.php/?___SID=Ucustomer-service/">Customer Service</a></li>
+        <li><a href="http://magento-1924.com:81/index.php/?___SID=Uprivacy-policy-cookie-restriction-mode/">Privacy Policy</a></li>
+    </ul>
+</div><div class="links">
+        <div class="block-title"><strong><span>Quick Links</span></strong></div>
+        <ul>
+                                    <li class="first" ><a href="http://magento-1924.com:81/index.php/catalog/seo_sitemap/category/?___SID=U" title="サイトマップ" >サイトマップ</a></li>
+                                                <li ><a href="http://magento-1924.com:81/index.php/catalogsearch/term/popular/?___SID=U" title="検索ワード" >検索ワード</a></li>
+                                                <li class=" last" ><a href="http://magento-1924.com:81/index.php/catalogsearch/advanced/?___SID=U" title="詳細検索" >詳細検索</a></li>
+                        </ul>
+</div>
+<div class="links">
+        <div class="block-title"><strong><span>アカウント</span></strong></div>
+        <ul>
+                                    <li class="first" ><a href="http://magento-1924.com:81/index.php/customer/account/?___SID=U" title="マイアカウント" >マイアカウント</a></li>
+                                                <li class=" last" ><a href="http://magento-1924.com:81/index.php/sales/guest/form/?___SID=U" title="注文と返品" >注文と返品</a></li>
+                        </ul>
+</div>
+        <address class="copyright">&copy; 2016 Magento Demo Store. All Rights Reserved.</address>
+    </div>
+</div>

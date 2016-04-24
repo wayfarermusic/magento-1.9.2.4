@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to info@principle-works.jp so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade to newer
+ * versions in the future. If you wish to customize it for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category   Localize
+ * @package    Rack_Jp_Core
+ * @copyright  Copyright (c) 2015 Veriteworks Inc. (http://principle-works.jp/)
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+-->
+<config>
+    <tabs>
+        <jpcore translate="label" module="jpcore">
+            <label>Japanese Environment Setting</label>
+            <sort_order>400</sort_order>
+        </jpcore>
+    </tabs>
+    <sections>
+        <jpcore translate="label" module="jpcore">
+            <label>Japanese Environment Setting</label>
+            <tab>jpcore</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>140</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <name translate="label">
+                    <label>Name Configuration</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <enablejp translate="label">
+                            <label>Use Japanese name order format</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>jpcore/system_config</source_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </enablejp>
+                        <usekana translate="label">
+                            <label>Use Furigana</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>jpcore/system_config</source_model>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </usekana>
+                    </fields>
+                </name>
+                <address translate="label">
+                    <label>Address Format Configration</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>2</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <enablejp translate="label">
+                            <label>Use Japanese address format</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>jpcore/system_config</source_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </enablejp>
+                        <onlyjp translate="label">
+                            <label>Hide country select box</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>jpcore/system_config</source_model>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </onlyjp>
+                        <showaddress translate="label">
+                            <label>Show address fields on customer registration form</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>jpcore/system_config</source_model>
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </showaddress>
+                    </fields>
+                </address>
+                <currency translate="label">
+                    <label>Currency Configration</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>2</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <position translate="label">
+                            <label>Japanese Yen symbol position</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>jpcore/system_currency</source_model>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </position>
+                        <remove_decimal translate="label">
+                            <label>Remove Decimal Currency</label>
+                            <frontend_type>multiselect</frontend_type>
+                            <source_model>adminhtml/system_config_source_locale_currency</source_model>
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <can_be_empty>1</can_be_empty>
+                        </remove_decimal>
+                    </fields>
+                </currency>
+                <additional translate="label">
+                    <label>Additional Configration</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>3</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <useselectfordob translate="label">
+                            <label>Use Select box for Dob</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>jpcore/system_config</source_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </useselectfordob>
+                        <startyear translate="label">
+                            <label>Start year of Dob</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <depends>
+                                <useselectfordob>1</useselectfordob>
+                            </depends>
+                        </startyear>
+                        <defaultyear translate="label">
+                            <label>Default year of Dob</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <depends>
+                                <useselectfordob>1</useselectfordob>
+                            </depends>
+                        </defaultyear>
+                        <useradioforgender translate="label">
+                            <label>Use Radio button for Gender</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>jpcore/system_config</source_model>
+                            <sort_order>4</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </useradioforgender>
+                        <defaultgender translate="label">
+                            <label>Default value of gender</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>jpcore/system_gender</source_model>
+                            <sort_order>4</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </defaultgender>
+                    </fields>
+                </additional>
+            </groups>
+        </jpcore>
+        <tax translate="label" module="tax">
+            <groups>
+                <calculation translate="label">
+                    <fields>
+                        <round translate="label comment" module="jpcore">
+                            <label>Round method</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>jpcore/system_round</source_model>
+                            <sort_order>61</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <!--<depends>-->
+                                <!--<price_includes_tax>0</price_includes_tax>-->
+                            <!--</depends>-->
+                        </round>
+                    </fields>
+                </calculation>
+            </groups>
+        </tax>
+    </sections>
+</config>
